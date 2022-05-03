@@ -1,0 +1,121 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f6fa;
+    padding: 30px 0;
+
+    .title {
+        h1 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #010101;
+        }
+
+        p {
+            font-weight: 14px;
+            font-weight: 400;
+            color: #010101;
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 500;
+                color: #010101;
+                transition: 0.3s;
+
+                &:hover {
+                    color: #5358b6;
+                    transform: translateY(-1px);
+                }
+            }
+        }
+    }
+
+    .comments {
+        .comment {
+            width: 700px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            @media (max-width: 767px) {
+                width: 100%;
+            }
+
+            .rate {
+                background-color: #f5f6fa;
+                padding: 5px;
+                border-radius: 10px;
+
+                button {
+                    border: none;
+                    background-color: transparent;
+                    font-size: 13px;
+                    color: #5358b6;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: #c4c6ef;
+                    }
+                }
+
+                span.number {
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: #5358b6;
+                }
+            }
+    
+            .content {
+                .head {
+                    margin-bottom: 20px;
+
+                    .user {
+                        img.user-image {
+                            width: 40px;
+                            height: 40px;
+                            object-fit: contain;
+                            object-position: top;
+                        }
+
+                        span.user-name {
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #010101;
+                        }
+
+                        span.date {
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: #767a7d;
+                        }
+                    }
+
+                    .reply {
+                        button {
+                            border: none;
+                            background-color: transparent;
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #5358b6;
+                            transition: 0.3s;
+
+                            &:hover {
+                                color: #c4c6ef;
+                            }
+                        }
+                    }
+                }
+
+                .body {
+                    p {
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #767a7d;
+                        letter-spacing: 0.8px;
+                    }
+                }
+            }
+        }
+    }
+}

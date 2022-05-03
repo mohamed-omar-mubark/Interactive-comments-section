@@ -1,0 +1,78 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f6fa;
+  padding: 30px 0; }
+  body .title h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #010101; }
+  body .title p {
+    font-weight: 14px;
+    font-weight: 400;
+    color: #010101; }
+    body .title p a {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+      color: #010101;
+      transition: 0.3s; }
+      body .title p a:hover {
+        color: #5358b6;
+        transform: translateY(-1px); }
+  body .comments .comment {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px; }
+    @media (max-width: 767px) {
+      body .comments .comment {
+        width: 100%; } }
+    body .comments .comment .rate {
+      background-color: #f5f6fa;
+      padding: 5px;
+      border-radius: 10px; }
+      body .comments .comment .rate button {
+        border: none;
+        background-color: transparent;
+        font-size: 13px;
+        color: #5358b6;
+        transition: 0.3s; }
+        body .comments .comment .rate button:hover {
+          color: #c4c6ef; }
+      body .comments .comment .rate span.number {
+        font-size: 15px;
+        font-weight: 500;
+        color: #5358b6; }
+    body .comments .comment .content .head {
+      margin-bottom: 20px; }
+      body .comments .comment .content .head .user img.user-image {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+        object-position: top; }
+      body .comments .comment .content .head .user span.user-name {
+        font-size: 14px;
+        font-weight: 500;
+        color: #010101; }
+      body .comments .comment .content .head .user span.date {
+        font-size: 12px;
+        font-weight: 400;
+        color: #767a7d; }
+      body .comments .comment .content .head .reply button {
+        border: none;
+        background-color: transparent;
+        font-size: 14px;
+        font-weight: 500;
+        color: #5358b6;
+        transition: 0.3s; }
+        body .comments .comment .content .head .reply button:hover {
+          color: #c4c6ef; }
+    body .comments .comment .content .body p {
+      font-size: 14px;
+      font-weight: 400;
+      color: #767a7d;
+      letter-spacing: 0.8px; }
+
+/*# sourceMappingURL=app.css.map */
